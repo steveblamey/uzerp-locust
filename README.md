@@ -11,7 +11,7 @@ $ cd uzerp-locust
 $ virtualenv env
 $ source env/bin/activate
 
-$ pip-install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 Edit ```config.py``` to suit.
