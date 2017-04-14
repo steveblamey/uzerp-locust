@@ -1,3 +1,6 @@
+# App host
+APP_HOST = 'https://demo.uzerp.com'
+
 # App login details
 APP_USERNAME = 'admin'
 APP_PASSWORD = 'admin'

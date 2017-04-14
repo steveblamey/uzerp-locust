@@ -88,6 +88,7 @@ class WebsiteTasks(TaskSet):
 
 
 class WebsiteUser(HttpLocust):
+    host = config.APP_HOST
     task_set = WebsiteTasks
     min_wait = 5000
     max_wait = 15000
