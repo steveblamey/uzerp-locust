@@ -7,8 +7,6 @@ all: $(outputs)
 %.txt: %.in
 	pip-compile -v --output-file $@ $<
 
-test.txt: requirements.txt
-
 .PHONY: check
 check:
 	@which pip-compile > /dev/null
