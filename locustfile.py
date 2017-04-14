@@ -83,7 +83,7 @@ class WebsiteTasks(TaskSet):
     def list_sales_orders(self):
         """Request the sales order listing."""
         response = self.client.get(
-            '/?pid=413&controller=sorders&module=sales_order')
+            '/?controller=sorders&module=sales_order&action=index')
         self.request_resources(response)
 
 
