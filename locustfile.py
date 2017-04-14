@@ -73,8 +73,8 @@ class WebsiteTasks(TaskSet):
         csrf_hidden = soup.find('input', id='csrf_token_id')
 
         self.client.post('/?action=login', {
-            'username': 'admin',
-            'password': 'admin',
+            'username': config.APP_USERNAME,
+            'password': config.APP_PASSWORD,
             'csrf_token': csrf_hidden['value'],
             'rememberUser': 'true',
         })

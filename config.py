@@ -1,3 +1,7 @@
-COLLECT_STATS = True
+# App login details
+APP_USERNAME = 'admin'
+APP_PASSWORD = 'admin'
 
-STATS_FILE = "stats.csv"
+# Collect the request time for each request and save to a CSV file
+COLLECT_STATS = True
+STATS_FILE = 'stats.csv'
