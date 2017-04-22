@@ -22,7 +22,7 @@ Run locust:
 $ locust --no-web -c 5 -r 2 -n 20
 ```
 
-_See the Locust website for more information on the locust command line._
+_See the <a href="http://docs.locust.io/en/latest/">Locust documentation</a> for more information on the locust command line._
 
 ## Links
 
