@@ -14,5 +14,6 @@ jinja2==2.9.6             # via flask
 locustio==0.7.5
 markupsafe==1.0           # via jinja2
 msgpack-python==0.4.8     # via locustio
+numpy==1.12.1
 requests==2.13.0          # via locustio
 werkzeug==0.12.1          # via flask
