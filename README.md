@@ -5,7 +5,7 @@ A <a href="http://locust.io">locust</a> file for load testing uzERP
 ## Installation
 
 ```
-$ git checkout https://github.com/steveblamey/uzerp-locust.git
+$ git clone https://github.com/steveblamey/uzerp-locust.git
 $ cd uzerp-locust
 
 $ virtualenv env
