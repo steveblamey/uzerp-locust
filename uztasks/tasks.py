@@ -15,7 +15,7 @@ class SalesTasks(UzTaskSet):
 class PurchasingTasks(UzTaskSet):
     @task
     def list_sales_orders(self):
-        """Request the sales order listing."""
+        """Request the purchase order listing."""
         response = self.client.get(
             '/?&controller=porders&module=purchase_order&action=index')
         self.request_resources(response)
